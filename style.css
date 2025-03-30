@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Title */
+h1 {
+    color: #0077cc;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Diary Entry Box */
+.diary-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 90%;
+    height: 120px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+textarea:focus {
+    border-color: #0077cc;
+}
+
+/* Save Button */
+button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+/* Entries List */
+#entries-container {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Single Entry */
+.entry {
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.entry:hover {
+    background: #e0e0e0;
+}
+
+/* Delete Button */
+.entry button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

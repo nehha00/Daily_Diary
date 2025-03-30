@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📖 My Daily Diary</h1>
+        
+        <div class="diary-box">
+            <textarea id="diary-entry" placeholder="Write your thoughts here..."></textarea>
+            <button onclick="saveEntry()">Save Entry</button>
+        </div>
+
+        <h2>📅 Your Diary Entries</h2>
+        <div id="entries-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
